@@ -1,5 +1,7 @@
 package com.example.dao;
 
-public interface GitMapper {
+import org.springframework.boot.autoconfigure.info.ProjectInfoProperties;
 
+public interface GitMapper {
+        void addGit(ProjectInfoProperties.Git git);
 }
