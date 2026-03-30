@@ -6,4 +6,6 @@ public interface GitMapper {
         void addGit(ProjectInfoProperties.Git git);
 
         void updateGit(ProjectInfoProperties.Git git);
+
+        void deleteGit(ProjectInfoProperties.Git git);
 }
